@@ -1,0 +1,1 @@
+<?php namespace BTPRestAPI;class Util {	public function getStatus(){        		return $this->_getStatus();	}		function _getStatus(){        		return array('status' => 'connected');	}}?>
