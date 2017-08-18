@@ -10,7 +10,7 @@ class Connection{
 		$db_host		= "localhost";
 		$username 		= "root";
 		$password 		= "";
-		$db_name		= "newDB";
+		$db_name		= "greatbtp_db_bus_project";
 		self::$INSTANCE	= mysqli_connect($db_host,$username,$password,$db_name);
 
 		// Check connection

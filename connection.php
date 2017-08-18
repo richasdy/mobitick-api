@@ -5,9 +5,12 @@
 		private $user = 'root';
 		private $password = '';
 		*/
+		// private $dsn = 'mysql:dbname=greatbtp_db_bus_project;host=localhost';
 		private $dsn = 'mysql:dbname=greatbtp_db_bus_project;host=localhost';
-		private $user = 'greatbtp_ticket';
-		private $password = 'Btp321Bos';
+		private $user = 'root';
+		private $password = '';
+		// private $user = 'greatbtp_ticket';
+		// private $password = 'Btp321Bos';
 		private $dbh;
 		private $get;
 		private $getID;
